@@ -2,7 +2,7 @@ goalState  = {'A': '0', 'B': '0', 'C': '0'}
 roomStates = {'A': '0', 'B': '0', 'C': '0'}
 cost = 0
 
-// simple reflex agent for vacuum cleaner problem
+# simple reflex agent for vacuum cleaner problem
 def get_location_input():
     """Keep asking until user enters a valid starting location (A, B, or C)."""
     valid = ['A', 'B', 'C']
